@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-SpoolSync-d50247f8-13aa-4abc-ad65-bb7f53f6f053</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="settings.toml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="settings.toml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.10" />
+    <PackageReference Include="Samboy063.Tomlet" Version="6.1.0" />
+  </ItemGroup>
+</Project>

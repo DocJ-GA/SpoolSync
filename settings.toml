@@ -1,0 +1,3 @@
+OrcaPath = "C:\Users\{Environment.UserName}\AppData\Roaming\OrcaSlicer\user\default\filament"
+SpoolmanApi = "http://10.0.10.1:7912/api/v1/"
+Printers = ["JKSN - 0.25 - Flashforge AD5M", "JKSN - 0.4 - Flashforge AD5M", "JKSN - 0.6 - Flashforge AD5M"]
